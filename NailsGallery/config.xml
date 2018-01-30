@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery 
+
+	cropToFit="true"
+	galleryTitle="Nails Gallery"
+	useFullscreenExpand="true"
+	showExpandButton="true"
+	showOpenButton="false"
+
+>
+  <image imageURL="images/background_image_small.jpg"
+	thumbURL="thumbs/background_image_small.jpg"
+	linkURL="images/background_image_small.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\quangtruong\Desktop\Images\background_image_small.jpg">
+    <title><![CDATA[background_image_small]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/background_image_medium.jpg"
+	thumbURL="thumbs/background_image_medium.jpg"
+	linkURL="images/background_image_medium.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\quangtruong\Desktop\Images\background_image_medium.jpg">
+    <title><![CDATA[background_image_medium]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+</juiceboxgallery>

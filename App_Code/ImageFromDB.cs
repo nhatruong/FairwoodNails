@@ -1,0 +1,77 @@
+using System;
+using System.Web;
+using System.Web.Configuration;
+using System.Data;
+using System.Data.SqlClient;
+using System.Linq;
+
+public class ImageFromDB : IHttpHandler
+{
+	public void ProcessRequest(HttpContext context)
+	{
+
+        string connectionString =
+          WebConfigurationManager.ConnectionStrings["FairwoodNails_CMSEntities"].ConnectionString;
+
+        // Get the ID for this request.
+        string id = context.Request.QueryString["id"];
+        if (id == null) throw new ApplicationException("Must specify ID.");
+
+        using (FairwoodNails_CMSEntities a = new FairwoodNails_CMSEntities())
+        {
+            var b = from c in a.MyImages
+                    where c.Id.ToString().Equals(id)
+                    select c.Image;
+            foreach (var e in b)
+            {
+                context.Response.BinaryWrite(e);
+            }
+        }
+
+   /*     string connectionString =
+		  WebConfigurationManager.ConnectionStrings["Pubs"].ConnectionString;
+
+		// Get the ID for this request.
+		string id = context.Request.QueryString["id"];
+		if (id == null) throw new ApplicationException("Must specify ID.");
+
+		// Create a parameterized command for this record.
+		SqlConnection con = new SqlConnection(connectionString);
+		string SQL = "SELECT image FROM images WHERE ID=@ID";
+		SqlCommand cmd = new SqlCommand(SQL, con);
+		cmd.Parameters.AddWithValue("@ID", id);
+
+		try
+		{
+			con.Open();
+			SqlDataReader r =
+			  cmd.ExecuteReader(CommandBehavior.SequentialAccess);
+
+			if (r.Read())
+			{
+				int bufferSize = 100;                  // Size of the buffer.
+				byte[] bytes = new byte[bufferSize];   // The buffer.
+				long bytesRead;                        // The # of bytes read.
+				long readFrom = 0;                     // The starting index.
+
+				// Read the field 100 bytes at a time.
+				do
+				{
+					bytesRead = r.GetBytes(0, readFrom, bytes, 0, bufferSize);
+					context.Response.BinaryWrite(bytes);
+					readFrom += bufferSize;
+				} while (bytesRead == bufferSize);
+			}
+			r.Close();
+		}
+		finally
+		{
+			con.Close();
+		}  */
+	}
+
+	public bool IsReusable
+	{
+		get { return true; }
+	}
+}

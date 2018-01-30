@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery 
+
+	cropToFit="true"
+	galleryTitle="Eyelash Extension by Anna T"
+	useFullscreenExpand="true"
+	showOpenButton="true"
+	indexPageName="EylashGallery.aspx"
+
+>
+  <image imageURL="images/eyelash6.jpg"
+	thumbURL="thumbs/eyelash6.jpg"
+	linkURL="images/eyelash6.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\quangtruong\Desktop\Images\eyelash_gallery\eyelash6.jpg">
+    <title><![CDATA[write something here]]></title>
+    <caption><![CDATA[something here. SELF NOTE: Do the rest for other images]]></caption>
+  </image>
+  <image imageURL="images/eyelash7.jpg"
+	thumbURL="thumbs/eyelash7.jpg"
+	linkURL="images/eyelash7.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\quangtruong\Desktop\Images\eyelash_gallery\eyelash7.jpg">
+    <title><![CDATA[eyelash7]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/eyelash8.jpg"
+	thumbURL="thumbs/eyelash8.jpg"
+	linkURL="images/eyelash8.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\quangtruong\Desktop\Images\eyelash_gallery\eyelash8.jpg">
+    <title><![CDATA[eyelash8]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/eyelash9.jpg"
+	thumbURL="thumbs/eyelash9.jpg"
+	linkURL="images/eyelash9.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\quangtruong\Desktop\Images\eyelash_gallery\eyelash9.jpg">
+    <title><![CDATA[eyelash9]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/eyelash1.jpg"
+	thumbURL="thumbs/eyelash1.jpg"
+	linkURL="images/eyelash1.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\quangtruong\Desktop\Images\eyelash_gallery\eyelash1.jpg">
+    <title><![CDATA[eyelash1]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/eyelash2.jpg"
+	thumbURL="thumbs/eyelash2.jpg"
+	linkURL="images/eyelash2.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\quangtruong\Desktop\Images\eyelash_gallery\eyelash2.jpg">
+    <title><![CDATA[eyelash2]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/eyelash3.jpg"
+	thumbURL="thumbs/eyelash3.jpg"
+	linkURL="images/eyelash3.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\quangtruong\Desktop\Images\eyelash_gallery\eyelash3.jpg">
+    <title><![CDATA[eyelash3]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/eyelash4.jpg"
+	thumbURL="thumbs/eyelash4.jpg"
+	linkURL="images/eyelash4.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\quangtruong\Desktop\Images\eyelash_gallery\eyelash4.jpg">
+    <title><![CDATA[eyelash4]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/eyelash5.jpg"
+	thumbURL="thumbs/eyelash5.jpg"
+	linkURL="images/eyelash5.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\quangtruong\Desktop\Images\eyelash_gallery\eyelash5.jpg">
+    <title><![CDATA[eyelash5]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+</juiceboxgallery>

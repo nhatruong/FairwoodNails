@@ -1,0 +1,21 @@
+﻿body {
+}
+.slideshowimage
+{
+    height:300px !important;
+     /*width:auto; */
+     margin:auto
+}
+.carousel-inner, .item
+{
+    background-color:black;
+    /*height:400px;*/
+}
+.businessday{
+    width:100%; 
+}
+.businesshours
+{
+    width:70%;
+   margin-left:20px;  
+}
